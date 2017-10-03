@@ -1,16 +1,18 @@
 /*alert('uwagggggaaa!!!!');*/
 
-window.onload = functon()
+window.onload = function()
 {
 	var box = document.getElementById("box");
 	var zrobCiasteczko = document.getElementById("zrobCiasteczko");
 
-	info.innerHTML = document.cookie;
+	
 
-	zrobCiasteczko.onclick = functon()
+	zrobCiasteczko.onclick = function()
 	{
-		var expirationDateCookie = new Date();
-		expirationDateCookie.setDate(expirationDateCookie.getDate() + 30);
-		document.cookie = "nazwa=ciacho;expires="+expirationDateCookie.toUTCString();
+		document.cookie = "imie=Magda;";
+		box.innerHTML = document.cookie;
+		//var expirationDateCookie = new Date();
+		//expirationDateCookie.setDate(expirationDateCookie.getDate() + 30);
+		//document.cookie = "nazwa=ciacho;expires="+expirationDateCookie.toUTCString();
 	};
 };
