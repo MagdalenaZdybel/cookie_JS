@@ -5,6 +5,7 @@
 //"path=/" ciastko które jest dostêpne w ka¿dym subfolderze (bez tego tylko w tym folderze w którym zosta³ stworzony)
 //expires= data wa¿noœci ciasteczka po zakoñczeniu sesji. Przy tej opcji musimy tworzyæ var x = new Date(); np. document.cookie = "imie=Magda;max-age="+expirationDataCookie.toUTCString();
 //max-age=masymalny czas wa¿nosci cookie (UWGA w sekundach)
+//localstorage (zamiast cookie - dzia³a tylko po stronie klienta i jest w HTML5, nie dzia³a jeœli musmy poraæ dane np. z php)
 
 window.onload = function()
 {
